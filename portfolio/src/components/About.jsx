@@ -52,7 +52,7 @@ const About = () => {
         {/* Feature Cards with Hover Effects */}
         <div className="mt-24 grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Card 1 */}
-          <div className="group flex flex-col items-center text-center p-8 rounded-2xl transition-all duration-300 hover:-translate-y-2 bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-blue-500/10">
+          <div className="group flex flex-col items-center text-center p-8 rounded-2xl transition-all duration-300 hover:border-blue-100 hover:-translate-y-2 bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-blue-500/10">
             <div className="p-4 rounded-xl bg-blue-50 dark:bg-blue-900/20 mb-6 group-hover:bg-blue-600 transition-colors">
               <Code size={32} className="text-blue-600 dark:text-blue-400 group-hover:text-white" />
             </div>
@@ -63,10 +63,11 @@ const About = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="group flex flex-col items-center text-center p-8 rounded-2xl transition-all duration-300 hover:-translate-y-2 bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-blue-500/10">
-            <div className="p-4 rounded-xl bg-blue-50 dark:bg-blue-900/20 mb-6 group-hover:bg-blue-600 transition-colors">
-              <Zap size={32} className="text-blue-600 dark:text-blue-400 group-hover:text-white" />
+          <div className="group flex flex-col items-center text-center p-8 rounded-2xl transition-all hover:border-purple-200 duration-300 hover:-translate-y-2 bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-purple-500/10">
+            <div className="p-4 rounded-xl bg-purple-50 dark:bg-purple-900/20 mb-6 group-hover:bg-purple-600 transition-colors">
+              <Zap size={32} className="text-purple-600 dark:text-purple-400 group-hover:text-white" />
             </div>
+            
             <h3 className="text-xl font-bold mb-3">Focus</h3>
             <p className="text-gray-600 dark:text-gray-400">
               Building efficient, responsive, and maintainable full-stack web applications.
@@ -74,7 +75,7 @@ const About = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="group flex flex-col items-center text-center p-8 rounded-2xl transition-all duration-300 hover:-translate-y-2 bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-blue-500/10">
+          <div className="group flex flex-col items-center text-center p-8 rounded-2xl transition-all hover:border-blue-100duration-300 hover:-translate-y-2 bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-lg hover:shadow-blue-500/10">
             <div className="p-4 rounded-xl bg-blue-50 dark:bg-blue-900/20 mb-6 group-hover:bg-blue-600 transition-colors">
               <Award size={32} className="text-blue-600 dark:text-blue-400 group-hover:text-white" />
             </div>
